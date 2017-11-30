@@ -1,0 +1,142 @@
+{
+    "categories": [{
+                   "name": "Chicken, Wraps, and More",
+                   "imageName": "crispyChickenSandwich.png",
+                   "categoryIndex": 0,
+                   "foodItems": [{
+                                 "name": "Crispy Chicken Sandwich",
+                                 "shortInformation": "570 cal",
+                                 "foodItemIndex": 0,
+                                 "detailedInformation": "Wendy's take on the classic sandwich. Crisp lettuce and creamy mayo are the perfect pairing for our lightly breaded chicken, cooked to perfection. Perfect for Sunday or any day.",
+                                 "imageName": "crispyChickenSandwich.png",
+                                 "ingredients": "Chicken, bun, ketchup, mustard, pickles",
+                                 "allergens": "Wheat and egg",
+                                 "nutrition": {
+                                 "calories": 570,
+                                 "fat": 10,
+                                 "fiber": 1,
+                                 "protein": 4
+                                 }
+                                 },
+                                 {
+                                 "name": "Crispy Chicken BLT",
+                                 "shortInformation": "810 cal",
+                                 "foodItemIndex": 1,
+                                 "detailedInformation": "We took the BLT and improved it by making the chicken crispy. It's the Chicken BLT Sandwich you know and love, made crispy.",
+                                 "imageName": "crispyChickenBLT.png",
+                                 "ingredients": "Chicken, bun, ketchup, mustard, pickles",
+                                 "allergens": "Wheat, soy, milk, and egg",
+                                 "nutrition": {
+                                 "calories": 810,
+                                 "fat": 10,
+                                 "fiber": 1,
+                                 "protein": 4
+                                 }
+                                 },
+                                 {
+                                 "name": "Four Piece Chicken Tenders",
+                                 "shortInformation": "1090 cal",
+                                 "foodItemIndex": 2,
+                                 "detailedInformation": "Meet Wendy's New Chicken Tenders that are lightly seasoned and breaded for a crispy outside and a tender, juicy inside. Dip them in Wendy’s new Side of S’Awesome™ sauce.",
+                                 "imageName": "fourPieceChickenTenders.png",
+                                 "ingredients": "Chicken",
+                                 "allergens": "Wheat",
+                                 "nutrition": {
+                                 "calories": 1090,
+                                 "fat": 10,
+                                 "fiber": 1,
+                                 "protein": 4
+                                 }
+                                 },
+                                 {
+                                 "name": "Four Piece Cripsy Chicken Nuggets",
+                                 "shortInformation": "950 cal",
+                                 "foodItemIndex": 3,
+                                 "detailedInformation": "Nuggets. Need we say more?",
+                                 "imageName": "fourPieceNuggets.png",
+                                 "ingredients": "Chicken",
+                                 "allergens": "Wheat",
+                                 "nutrition": {
+                                 "calories": 950,
+                                 "fat": 10,
+                                 "fiber": 1,
+                                 "protein": 4
+                                 }
+                                 }
+                                 
+                                 
+                                 ]
+                   },
+                   {
+                   "name": "Fries & Sides",
+                   "imageName": "friesAndSides.png",
+                   "categoryIndex": 1,
+                   "foodItems": [{
+                                 "name": "French Fries",
+                                 "shortInformation": "230-550 cal",
+                                 "foodItemIndex": 2,
+                                 "detailedInformation": "Everyone has fries, but no one does them like Wendy's. That's because ours are naturally cut, served hot and crispy with a sprinkle of sea salt. You've had fries. Now try some real fries.",
+                                 "imageName": "frenchFries.png",
+                                 "ingredients": "potatoes, salt, oil",
+                                 },
+                                 {
+                                 "name": "Chili",
+                                 "shortInformation": "170/250 cal",
+                                 "foodItemIndex": 0,
+                                 "detailedInformation": "Who else but Wendy's could bring you hearty chili made with our signature fresh, never frozen beef? It's the perfect comfort food anytime of the year.",
+                                 "imageName": "chili.png",
+                                 "ingredients": "onions, flour, eggs, milk",
+                                 },
+                                 {
+                                 "name": "Baconator® Fries",
+                                 "shortInformation": "490 cal",
+                                 "foodItemIndex": 1,
+                                 "detailedInformation": "Our natural cut fries, smothered in a creamy cheese sauce and generously topped with shredded cheddar and Applewood Smoked Bacon. It's the only sidekick worthy of the Baconator name.",
+                                 "imageName": "baconatorFries.png",
+                                 "ingredients": "onions, flour, eggs, milk",
+                                 "allergens": "Milk"
+                                 }
+                                 ]
+                   },
+                   {
+                   "name": "Beverages",
+                   "imageName": "beverages.png",
+                   "categoryIndex": 2,
+                   "foodItems": [{
+                                 "name": "Coca-Cola",
+                                 "shortInformation": "160-400 cal",
+                                 "foodItemIndex": 2,
+                                 "detailedInformation": "A great way to complete any meal. Lots of ice, plenty of fizz and that Coke Classic® taste that's sure to please.",
+                                 "imageName": "cola.png",
+                                 "ingredients": "water, sugar, caramel color",
+                                 },
+                                 {
+                                 "name": "Diet Coke",
+                                 "shortInformation": "0 cal",
+                                 "foodItemIndex": 0,
+                                 "detailedInformation": "Proving you can still enjoy the great taste of Coke without the calories.",
+                                 "imageName": "cola.png",
+                                 "ingredients": "water, caramel color, aspartame",
+                                 },
+                                 {
+                                 "name": "Strawberry Iced Tea",
+                                 "shortInformation": "30-90 cal",
+                                 "foodItemIndex": 3,
+                                 "detailedInformation": "There's nothing artificial here! Made with real strawberries, this refreshing drink is made fresh when you order.",
+                                 "imageName": "icedTea.png",
+                                 "ingredients": "water, caramel color, aspartame",
+                                 "allergens": "Milk"
+                                 },
+                                 {
+                                 "name": "Caramel Iced Coffee",
+                                 "shortInformation": "160/240 cal",
+                                 "foodItemIndex": 1,
+                                 "detailedInformation": "Our rich and full-bodied Redhead blend-chilled to perfection.",
+                                 "imageName": "icedCoffee.png",
+                                 "ingredients": "Water, coffee, sugar",
+                                 "allergens": "Milk"
+                                 }
+                                 ]
+                   }
+                   ]
+}

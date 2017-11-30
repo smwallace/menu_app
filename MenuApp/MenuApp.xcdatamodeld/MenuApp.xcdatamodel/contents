@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G1036" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="categoryIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="foodMenuItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FoodMenuItem" inverseName="category" inverseEntity="FoodMenuItem" syncable="YES"/>
+    </entity>
+    <entity name="FoodMenuItem" representedClassName="FoodMenuItem" syncable="YES">
+        <attribute name="allergenInformation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailedInformation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortInformation" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="foodMenuItems" inverseEntity="Category" syncable="YES"/>
+        <relationship name="nutrition" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Nutrition" inverseName="forMenuItem" inverseEntity="Nutrition" syncable="YES"/>
+    </entity>
+    <entity name="Nutrition" representedClassName="Nutrition" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fat" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fiber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="protein" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="forMenuItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FoodMenuItem" inverseName="nutrition" inverseEntity="FoodMenuItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="FoodMenuItem" positionX="-18" positionY="81" width="128" height="180"/>
+        <element name="Nutrition" positionX="-18" positionY="72" width="128" height="120"/>
+    </elements>
+</model>

@@ -1,0 +1,87 @@
+{
+	"categories": [
+		{
+			"name": "Burgers",
+			"imageName": "gramzon-Hamburger-remix-monster-brain-800px.png",
+			"foodItems": [
+				{
+					"name": "Burger 1",
+					"shortInformation": "A burger",
+					"detailedInformation": "A big burger",
+					"imageName": "gramzon-Hamburger-remix-monster-brain-800px.png",
+					"ingredients": "burger, bun, ketchup, mustard, pickles",
+                    "allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 150,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				},
+								{
+					"name": "Fried Chicken",
+					"shortInformation": "Chicken like Mom used to make",
+					"detailedInformation": "",
+					"imageName": "rugby471-Tango-Style-Chicken-Leg-800px.png",
+					"ingredients": "Chicken leg, buttermilk, flour, and spices",
+                    "allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 150,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				}
+			]
+		},
+		{
+			"name": "Sides",
+			"imageName": "Fries_and_Onion_Rings.png",
+			"foodItems": [
+				{
+					"name": "Fries",
+					"shortInformation": "Hand cut fries",
+					"detailedInformation": "The best fries you have ever had",
+					"imageName": "french-fries-juliane-kr-r-800px.png",
+					"ingredients": "potatoes, salt, oil"
+				},
+				{
+					"name": "Onion Rings",
+					"shortInformation": "Batter dipped onion rings",
+					"detailedInformation": "Onion rings like no where else",
+					"imageName": "Fries_and_Onion_Rings.png",
+					"ingredients": "onions, flour, eggs, milk",
+                    "allergens": "Wheat, soy, milk, and egg"
+				}
+			]
+		},
+       {
+       "name": "Drinks",
+       "imageName": "purplecansoda-800px.png",
+       "foodItems": [
+                     {
+                     "name": "Coca-Cola",
+                     "shortInformation": "Coca-Cola",
+                     "detailedInformation": "Crisp and refreshing, a customer favorite",
+                     "imageName": "Coca-Cola.jpg",
+                     "ingredients": "water, sugar, caramel color",
+                     },
+                     {
+                     "name": "Coke Zero Sugar",
+                     "shortInformation": "No sugar in this drink!",
+                     "detailedInformation": "When you want the taste of Coca Cola without the calories",
+                     "imageName": "CokeZeroSugar_12ozdrypng.png",
+                     "ingredients": "water, caramel color, aspartame"
+                     },
+                     {
+                     "name": "Chocolate Milk Shake",
+                     "shortInformation": "Rich and thick and chocolate",
+                     "detailedInformation": "So creamy you'll want more!",
+                     "imageName": "ThickShake-800px.png",
+                     "ingredients": "water, caramel color, aspartame"
+                     }
+                     ]
+       }
+	]
+
+}

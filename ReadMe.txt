@@ -1,4 +1,3 @@
-# menu_app
 MenuApp
 by Sheila Wallace
 

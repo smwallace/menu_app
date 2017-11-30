@@ -1,0 +1,142 @@
+{
+	"categories": [{
+			"name": "Hamburgers",
+			"imageName": "double.png",
+            "categoryIndex": 0,
+			"foodItems": [{
+					"name": "Dave's Single®",
+					"shortInformation": "570 cal",
+                    "foodItemIndex": 0,
+					"detailedInformation": "It's our classic the way Dave intended! A juicy quarter pound of fresh, never frozen beef decorated with premium toppings all between a warm toasted bun.",
+					"imageName": "single.png",
+					"ingredients": "Beef, bun, ketchup, mustard, pickles",
+                    "allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 570,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				},
+				{
+					"name": "Dave's Double®",
+					"shortInformation": "810 cal",
+                    "foodItemIndex": 1,
+					"detailedInformation": "Oh yeah, you're seeing double. That's two fresh, never frozen beef patties with the freshest toppings on a warm toasted bun.",
+					"imageName": "double.png",
+                    "ingredients": "Beef, bun, ketchup, mustard, pickles",
+                    "allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 810,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				},
+				{
+					"name": "Dave's Triple®",
+					"shortInformation": "1090 cal",
+                    "foodItemIndex": 2,
+					"detailedInformation": "When hunger strikes, this is where you turn. With three quarter pound fresh, never-frozen beef patties and our premium toppings, there's no way you can walk away hungry.",
+					"imageName": "triple.png",
+                    "ingredients": "Beef, bun, ketchup, mustard, pickles",
+                    "allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 1090,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				},
+				{
+					"name": "Baconator®",
+					"shortInformation": "950 cal",
+                    "foodItemIndex": 3,
+					"detailedInformation": "Here's to the carnivores. Two 1/4 lb patties with six strips of bacon. There's not a single veggie to get in the way.",
+					"imageName": "baconator.png",
+					"ingredients": "Beef, BACON!, bun, ketchup, mustard, pickles",
+					"allergens": "Wheat, soy, milk, and egg",
+					"nutrition": {
+						"calories": 950,
+						"fat": 10,
+						"fiber": 1,
+						"protein": 4
+					}
+				}
+
+
+			]
+		},
+		{
+			"name": "Fries & Sides",
+			"imageName": "friesAndSides.png",
+            "categoryIndex": 1,
+			"foodItems": [{
+					"name": "French Fries",
+					"shortInformation": "230-550 cal",
+                    "foodItemIndex": 0,
+					"detailedInformation": "Everyone has fries, but no one does them like Wendy's. That's because ours are naturally cut, served hot and crispy with a sprinkle of sea salt. You've had fries. Now try some real fries.",
+					"imageName": "frenchFries.png",
+					"ingredients": "potatoes, salt, oil",
+				},
+				{
+					"name": "Chili",
+					"shortInformation": "170/250 cal",
+                    "foodItemIndex": 1,
+					"detailedInformation": "Who else but Wendy's could bring you hearty chili made with our signature fresh, never frozen beef? It's the perfect comfort food anytime of the year.",
+					"imageName": "chili.png",
+					"ingredients": "onions, flour, eggs, milk",
+				},
+				{
+					"name": "Baconator® Fries",
+					"shortInformation": "490 cal",
+                    "foodItemIndex": 2,
+					"detailedInformation": "Our natural cut fries, smothered in a creamy cheese sauce and generously topped with shredded cheddar and Applewood Smoked Bacon. It's the only sidekick worthy of the Baconator name.",
+					"imageName": "baconatorFries.png",
+					"ingredients": "onions, flour, eggs, milk",
+					"allergens": "Milk"
+				}
+			]
+		},
+		{
+			"name": "Beverages",
+			"imageName": "beverages.png",
+            "categoryIndex": 2,
+			"foodItems": [{
+					"name": "Coca-Cola",
+					"shortInformation": "160-400 cal",
+                    "foodItemIndex": 0,
+					"detailedInformation": "A great way to complete any meal. Lots of ice, plenty of fizz and that Coke Classic® taste that's sure to please.",
+					"imageName": "cola.png",
+					"ingredients": "water, sugar, caramel color",
+				},
+				{
+					"name": "Diet Coke",
+					"shortInformation": "0 cal",
+                    "foodItemIndex": 1,
+					"detailedInformation": "Proving you can still enjoy the great taste of Coke without the calories.",
+					"imageName": "cola.png",
+					"ingredients": "water, caramel color, aspartame",
+				},
+				{
+					"name": "Strawberry Iced Tea",
+					"shortInformation": "30-90 cal",
+                    "foodItemIndex": 2,
+					"detailedInformation": "There's nothing artificial here! Made with real strawberries, this refreshing drink is made fresh when you order.",
+					"imageName": "icedTea.png",
+					"ingredients": "water, caramel color, aspartame",
+					"allergens": "Milk"
+				},
+				{
+					"name": "Caramel Iced Coffee",
+					"shortInformation": "160/240 cal",
+                    "foodItemIndex": 3,
+					"detailedInformation": "Our rich and full-bodied Redhead blend-chilled to perfection.",
+					"imageName": "icedCoffee.png",
+					"ingredients": "Water, coffee, sugar",
+					"allergens": "Milk"
+				}
+			]
+		}
+	]
+}
